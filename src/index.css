@@ -1,10 +1,10 @@
 
 :root {
-  --primary-color: #005A9C; /* Un blu più scuro, migliore su bianco */
-  --bg-color: #F4F7F6;      /* Sfondo grigio molto chiaro */
-  --card-color: #FFFFFF;   /* Sfondo per card (bianco) */
-  --text-color: #222222;   /* Testo quasi nero */
-  --text-secondary: #555555; /* Testo secondario grigio */
+  --primary-color: #005A9C; 
+  --bg-color: #F4F7F6;      
+  --card-color: #FFFFFF;   
+  --text-color: #222222;   
+  --text-secondary: #555555; 
   --border-color: #E0E0E0;
   --header-font: 'Poppins', sans-serif;
   --body-font: 'Poppins', sans-serif;
@@ -38,7 +38,7 @@ h1, h2, h3 {
   font-family: var(--header-font);
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #111; /* Testo scuro per i titoli */
+  color: #111; 
 }
 
 h2 {
@@ -75,11 +75,22 @@ p {
   width: 100%;
 }
 
-.nav-logo {
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Spazio tra logo e testo */
+  text-decoration: none;
+}
+
+.navbar-logo-img {
+  height: 35px; /* Altezza del logo nella navbar */
+  width: auto;
+}
+
+.navbar-logo-text {
   font-size: 1.8rem;
   font-weight: 700;
-  color: black;
-  text-decoration: none;
+  color: black; /* O var(--text-color) */
 }
 
 .nav-links {
@@ -122,6 +133,13 @@ p {
   text-align: center;
   padding: 0 5%;
   background-color: var(--bg-color);
+ 
+}
+
+.hero-main-logo {
+  width: 220px; /* Dimensione del logo sopra il titolo */
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
 .hero h1 {
@@ -199,6 +217,27 @@ p {
   margin-bottom: 1rem;
 }
 
+
+.tech-card.image-card {
+  padding: 0; 
+  overflow: hidden; 
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.tech-card.image-card img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  display: block; 
+  transition: transform 0.3s ease;
+}
+
+/* Aggiunge un leggero zoom all'hover, come per le altre card */
+.tech-card.image-card:hover img {
+  transform: scale(1.05);
+}
 /* === ARCHITECTURE === */
 .architecture-content {
   text-align: center;
@@ -239,6 +278,112 @@ p {
   border-radius: 8px;
   border: 1px solid var(--border-color);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* === STILI PER IL CAROSELLO APPLICAZIONE === */
+.carousel-container {
+  position: relative;
+  max-width: 450px; /* Larghezza ottimale per screenshot verticali */
+  margin: 0 auto;
+  overflow: hidden; /* Nasconde le slide non attive */
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 1 0 100%; /* Ogni slide occupa il 100% del contenitore */
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  object-fit: contain;
+}
+
+.carousel-description {
+  text-align: center;
+  padding: 1rem 0 1.5rem 0; /* Spazio sotto per i pallini */
+  font-size: 1rem;
+  color: var(--text-secondary);
+  min-height: 80px; /* Altezza fissa per la descrizione */
+}
+
+/* Stili per i pulsanti Prev/Next */
+.carousel-btn {
+  position: absolute;
+  top: 40%; /* Posiziona a metà altezza dell'immagine */
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  z-index: 10;
+  transition: all 0.2s ease;
+}
+
+.carousel-btn:hover {
+  background-color: var(--card-color);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+.carousel-btn svg {
+  width: 28px;
+  height: 28px;
+}
+
+/* Stili per i pallini di navigazione */
+.carousel-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-dot:hover {
+  background-color: var(--text-secondary);
+}
+
+.carousel-dot.active {
+  background-color: var(--primary-color);
 }
 
 /* === TEAM === */

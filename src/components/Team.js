@@ -6,12 +6,12 @@ const Team = () => {
     <Section id="team" title="Il Team">
       <div className="team-grid">
         
-        {/* --- Studente 1 --- */}
+      
         <div className="team-card">
           <h3>Grassi Francesco</h3>
           <div className="team-links">
             <a 
-              href="https://github.com/francescograssi825" // <-- METTI IL TUO LINK GITHUB
+              href="https://github.com/francescograssi825" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="icon-link"
@@ -33,7 +33,7 @@ const Team = () => {
           </div>
         </div>
         
-        {/* --- Studente 2 --- */}
+    
         <div className="team-card">
           <h3>Massari Daniele</h3>
           <div className="team-links">
@@ -61,7 +61,7 @@ const Team = () => {
           </div>
         </div>
 
-        {/* --- Studente 3 --- */}
+     
         <div className="team-card">
           <h3>Santantonio Alessio</h3>
           <div className="team-links">

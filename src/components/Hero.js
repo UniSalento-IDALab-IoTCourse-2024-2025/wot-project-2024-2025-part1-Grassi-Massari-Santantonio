@@ -3,6 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <header id="home" className="hero">
+      <img src="/images/LogoApp.png" alt="FastGo Logo" className="hero-main-logo" />
       <h1>FASTGO</h1>
         <p>Logistica Urbana Decentralizzata con IoT, AI e Blockchain</p>
       <p style={{fontSize: '1.2rem', color: 'var(--text-secondary)', marginTop: '1rem'}}>
