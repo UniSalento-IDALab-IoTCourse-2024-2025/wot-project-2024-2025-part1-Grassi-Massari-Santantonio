@@ -49,12 +49,12 @@ function App() {
           </TechnologyCard>
           
           <div className="tech-card image-card">
-            <img src="/images/sensortile.jpg" alt="Sensor Tile" />
+            <img src={process.env.PUBLIC_URL +"/images/sensortile.jpg"} alt="Sensor Tile" />
           </div>
 
 
           <div className="tech-card image-card">
-            <img src="/images/python.jpg" alt="Logo Python per AI" />
+            <img src={process.env.PUBLIC_URL +"/images/python.jpg"} alt="Logo Python per AI" />
           </div>
 
           <TechnologyCard title="Edge AI (Intelligenza Artificiale)">
@@ -68,11 +68,11 @@ function App() {
           </TechnologyCard>
 
            <div className="tech-card image-card">
-            <img src="/images/solidity.png" alt="Logo Ethereum per Blockchain" />
+            <img src={process.env.PUBLIC_URL +"/images/solidity.png"} alt="Logo Ethereum per Blockchain" />
           </div>
 
           <div className="tech-card image-card">
-            <img src="/images/React-native-2-logo.png" alt="Logo React Native per Full-Stack" />
+            <img src={process.env.PUBLIC_URL +"/images/React-native-2-logo.png"} alt="Logo React Native per Full-Stack" />
           </div>
 
           <TechnologyCard title="Architettura Full-Stack">

@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
         <a href="#home" className="nav-logo-container">
-        <img src="/images/LogoApp.png" alt="FastGo Logo" className="navbar-logo-img" />
+          <img src={process.env.PUBLIC_URL +"/images/LogoApp.png"} alt="FastGo Logo" className="navbar-logo-img" />
         <span className="navbar-logo-text">FASTGO</span>
       </a>
       <ul className={isOpen ? "nav-links active" : "nav-links"}>

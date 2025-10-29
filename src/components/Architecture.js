@@ -11,7 +11,7 @@ const Architecture = () => {
        {/* --- INIZIO DIAGRAMMA DI ARCHITETTURA --- */}
         <div className="architecture-diagram">
           <img 
-            src="\images\architettura.jpg" 
+            src={process.env.PUBLIC_URL + "\images\architettura.jpg"} 
             alt="Diagramma di architettura del sistema FASTGO" 
           />
         </div>
