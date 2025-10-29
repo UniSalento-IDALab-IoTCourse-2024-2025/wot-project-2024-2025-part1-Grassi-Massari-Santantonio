@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/css/main.76e8a305.css",
-    "main.js": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.9b14280a.js",
+    "main.js": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.7aeda71b.js",
     "static/js/453.fa954a61.chunk.js": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/453.fa954a61.chunk.js",
     "index.html": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/index.html",
     "main.76e8a305.css.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/css/main.76e8a305.css.map",
-    "main.9b14280a.js.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.9b14280a.js.map",
+    "main.7aeda71b.js.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.7aeda71b.js.map",
     "453.fa954a61.chunk.js.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/453.fa954a61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76e8a305.css",
-    "static/js/main.9b14280a.js"
+    "static/js/main.7aeda71b.js"
   ]
 }
