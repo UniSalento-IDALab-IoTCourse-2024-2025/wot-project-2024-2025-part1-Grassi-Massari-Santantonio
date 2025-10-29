@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/css/main.76e8a305.css",
-    "main.js": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.98fc06dd.js",
-    "static/js/453.fa954a61.chunk.js": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/453.fa954a61.chunk.js",
-    "index.html": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/index.html",
-    "main.76e8a305.css.map": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/css/main.76e8a305.css.map",
-    "main.98fc06dd.js.map": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.98fc06dd.js.map",
-    "453.fa954a61.chunk.js.map": "/UniSalento-IDALab-IoTCourse-2024-2025/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/453.fa954a61.chunk.js.map"
+    "main.css": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/css/main.76e8a305.css",
+    "main.js": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.342b7fcd.js",
+    "static/js/453.fa954a61.chunk.js": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/453.fa954a61.chunk.js",
+    "index.html": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/index.html",
+    "main.76e8a305.css.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/css/main.76e8a305.css.map",
+    "main.342b7fcd.js.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/main.342b7fcd.js.map",
+    "453.fa954a61.chunk.js.map": "/wot-project-2024-2025-part1-Grassi-Massari-Santantonio/static/js/453.fa954a61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76e8a305.css",
-    "static/js/main.98fc06dd.js"
+    "static/js/main.342b7fcd.js"
   ]
 }
