@@ -4,32 +4,28 @@ import Section from './Section';
 // Array con i dati per ogni slide del carosello
 const slidesData = [
   {
-    image: process.env.PUBLIC_URL + '/images/app-home.png',
-    description: "Homepage dell'app utente. Mostra i ristoranti disponibili, i piatti più popolari e una barra di ricerca."
+    image: process.env.PUBLIC_URL + '/images/utente-lista-ristoranti.png',
+    description: "Homepage dell'app web utente. Mostra i ristoranti disponibili."
   },
   {
-    image: process.env.PUBLIC_URL + '/images/app-menu.png',
-    description: "Menù del ristorante. L'utente può vedere i piatti, le recensioni e aggiungerli al carrello."
-  },
-  {
-    image: process.env.PUBLIC_URL + '/images/app-carrello.png',
-    description: "Riepilogo del carrello. L'utente può modificare le quantità, vedere il totale e procedere al pagamento."
-  },
-  {
-    image: process.env.PUBLIC_URL +  '/images/app-pagamento.png',
-    description: "Fase di pagamento. Il sistema offre diverse opzioni, tra cui PayPal, carta di credito o contanti alla consegna."
+    image: process.env.PUBLIC_URL + '/images/utente-posizione.png',
+    description: "App Web Utente. Permette di impostare la destinazione di consegna."
   },
   {
     image: process.env.PUBLIC_URL + '/images/app-rider-home.png',
-    description: "Homepage dell'app rider. Mostra una mappa e il pulsante 'Vai Online' per iniziare a ricevere consegne."
+    description: "Homepage dell'app rider. Mostra una mappa."
   },
   {
-    image: process.env.PUBLIC_URL + '/images/app-rider-notifica.png',
-    description: "Il rider riceve una notifica in tempo reale per un nuovo ordine e può scegliere di accettare o rifiutare la consegna."
+    image: process.env.PUBLIC_URL + '/images/app-rider-storico.png',
+    description: "Il rider uno storico delle consegne effettuate."
   },
   {
-    image: process.env.PUBLIC_URL + '/images/app-rider-xp.png',
-    description: "Sezione 'Badge' del rider. Mostra una barra di progressione dell'esperienza (XP) e i livelli raggiunti."
+    image: process.env.PUBLIC_URL + '/images/esercente-menu.png',
+    description: "App web Esercente. Permette di visualizzare il menù del ristorante."
+  },
+  {
+    image: process.env.PUBLIC_URL + '/images/esercente-ordini.png',
+    description: "Homepage dell'app web utente. Mostra i ristoranti disponibili."
   }
 ];
 
