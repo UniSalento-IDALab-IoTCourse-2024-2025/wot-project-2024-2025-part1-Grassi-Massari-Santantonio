@@ -14,13 +14,12 @@ const Navbar = () => {
         <span className="navbar-logo-text">FASTGO</span>
       </a>
       <ul className={isOpen ? "nav-links active" : "nav-links"}>
-        <li><a href="#problem" onClick={toggleMenu}>Problema</a></li>
-        <li><a href="#solution" onClick={toggleMenu}>Soluzione</a></li>
-        <li><a href="#technologies" onClick={toggleMenu}>Tecnologie</a></li>
+        <li><a href="#problem" onClick={toggleMenu}>Visione</a></li>
+        <li><a href="#technologies" onClick={toggleMenu}>Tech</a></li>
         <li><a href="#architecture" onClick={toggleMenu}>Architettura</a></li>
-        <li><a href="#application" onClick={toggleMenu}>Applicazione</a></li>
+        <li><a href="#application" onClick={toggleMenu}>App</a></li>
+        <li><a href="#repos" onClick={toggleMenu}>Codice</a></li>
         <li><a href="#team" onClick={toggleMenu}>Team</a></li>
-        <li><a href="#demo" onClick={toggleMenu}>Demo</a></li>
       </ul>
       <button className="nav-toggle" onClick={toggleMenu}>
         &#9776;
